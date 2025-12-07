@@ -78,7 +78,7 @@ git push
    - Select the `main` branch and `/docs` folder
    - Click Save
 
-Your site will be available at `https://kenjisato.github.io/starter-react/`
+Your site will be available at `https://[username].github.io/starter-react/` (replace `[username]` with your GitHub username or organization name)
 
 ### Linting
 
