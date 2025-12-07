@@ -47,7 +47,7 @@ Build the application for production:
 npm run build
 ```
 
-The build output will be in the `dist` directory.
+The build output will be in the `docs` directory.
 
 ### Preview Production Build
 
@@ -55,6 +55,30 @@ Preview the production build locally:
 ```bash
 npm run preview
 ```
+
+### Deploying to GitHub Pages
+
+This project is configured to deploy to GitHub Pages from the `docs` directory:
+
+1. Build the project:
+```bash
+npm run build
+```
+
+2. Commit and push the `docs` directory to your repository:
+```bash
+git add docs
+git commit -m "Build for GitHub Pages"
+git push
+```
+
+3. Enable GitHub Pages in your repository settings:
+   - Go to Settings → Pages
+   - Under "Source", select "Deploy from a branch"
+   - Select the `main` branch and `/docs` folder
+   - Click Save
+
+Your site will be available at `https://kenjisato.github.io/starter-react/`
 
 ### Linting
 
